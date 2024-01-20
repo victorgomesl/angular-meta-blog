@@ -8,7 +8,7 @@ Este projeto é um blog desenvolvido com Angular 17.1.0, como parte de um desafi
 
 ## Preview
 
-![Vídeo de Prévia](https://i.imgur.com/X1xYWfT.mp4)
+![imgur](https://i.imgur.com/D1ZgiOh.gif)
 
 ## Pré-requisitos
 
