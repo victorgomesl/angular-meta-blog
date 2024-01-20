@@ -17,18 +17,25 @@ Este projeto é um blog desenvolvido com Angular 17.1.0, como parte de um desafi
 ## Instalação
 
 1. Clone este repositório:
-
+```bash
 git clone https://github.com/victorgomesl/angular-meta-blog.git
+```
 
-Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
+```bash
 cd angular-meta-blog
+```
 
-Instale as dependências:
+3. Instale as dependências:
+```bash
 npm install
+```
 
 ## Rodando o projeto
 Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+```bash
 ng serve
+```
 
 O aplicativo estará disponível em http://localhost:4200/ por padrão.
 
