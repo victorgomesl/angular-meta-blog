@@ -10,6 +10,8 @@ Este projeto é um blog desenvolvido com Angular 17.1.0, como parte de um desafi
 
 ![imgur](https://i.imgur.com/Zs4epkQ.gif)
 
+[Live Demo](https://portfolio-minimal-eta.vercel.app/)
+
 ## Pré-requisitos
 
 - Node.js: Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
