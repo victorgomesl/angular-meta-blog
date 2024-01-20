@@ -1,0 +1,202 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px;
+}
+
+.footer-top, .footer-bottom {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-section {
+  width: 25%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  line-height: 24px;
+}
+
+.quick-link-section, .category-section {
+  width: 20%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  padding-left: 20px;
+}
+
+.quick-link-title, .category-title {
+  margin-bottom: 8px;
+  color: white;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.quick-link-item, .category-item {
+  margin-bottom: 8px;
+  color: #BABABF;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.newsletter-section {
+  width: 30%;
+  padding: 32px;
+  background: #242535;
+  border-radius: 12px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title, .newsletter-title {
+  color: white;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.about-description, .newsletter-description, .contact-info div, .quick-link-item, .category-item {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  line-height: 24px;
+}
+
+.about-description, .newsletter-description, .contact-info div {
+  color: #97989F;
+  word-wrap: break-word;
+}
+
+.newsletter-input {
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #181A2A;
+  border-radius: 6px;
+  border: 1px #3B3C4A solid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  color: #97989F;
+  width: 100%;
+}
+
+.newsletter-button {
+  align-self: stretch;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #4B6BFB;
+  border-radius: 6px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.footer-bottom {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-top: 1px #242535 solid;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-logo-info {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-meta-info {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+}
+
+.meta-blog-title {
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.meta-blog-bold {
+  font-weight: 800;
+}
+
+.meta-rights-info {
+  color: #BABABF;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-link-item {
+  color: #BABABF;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.meta-rights-info, .footer-link-item {
+  color: #BABABF;
+  font-size: 16px;
+}
+
+.footer-link-divider {
+    width: 1px;
+    height: 24px;
+    background: #BABABF;
+}
+
+.github-link {
+  color: white;
+}
+

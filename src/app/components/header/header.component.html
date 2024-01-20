@@ -1,0 +1,46 @@
+<div class="main-container">
+  <div class="sub-container">
+      <!-- Logo Container -->
+      <div class="logo-container">
+          <img src="../../../assets/header/logo.svg" alt="Logo">
+      </div>
+      <!-- Menu Item Container -->
+      <div class="menu-item-container">
+          <div class="menu-item">
+              <div class="menu-item-text">Home</div>
+          </div>
+          <div class="menu-item">
+              <div class="menu-item-text">Blog</div>
+          </div>
+          <div class="menu-item">
+              <div class="menu-item-text">Single Post</div>
+          </div>
+          <div class="menu-item">
+              <div class="menu-item-text">Pages</div>
+          </div>
+          <div class="menu-item">
+              <div class="menu-item-text">Contact</div>
+          </div>
+        </div>
+      <!-- Search Container -->
+      <div class="right-container">
+      <div class="search-container">
+          <div class="search-box">
+                 <input class="search-input" [(ngModel)]="searchText" placeholder="Search" (keyup.enter)="performSearch()" />
+                <div class="search-icon" (click)="performSearch()">
+                <img src="../../../assets/header/search-outline.svg" alt="Search">
+              </div>
+          </div>
+      </div>
+      <!-- Toggle Container -->
+      <div class="toggle-container" (click)="toggleTheme()">
+        <div class="toggle-background"></div>
+        <div class="toggle-button" [class.dark-mode]="isDarkMode">
+              <div class="toggle-button-inner">
+                <img src="../../../assets/header/sunny.svg" alt="Toggle">
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
